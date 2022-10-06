@@ -11,3 +11,4 @@ class SkylabArray {
     this.array = args;
   }
 }
+export default SkylabArray;
