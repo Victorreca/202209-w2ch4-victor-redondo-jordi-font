@@ -12,7 +12,7 @@ class SkylabArray {
     let countElements = 0;
     arrayLength.forEach(() => countElements++);
 
-    // for (const element in arrayLength) {
+    // for (const element of arrayLength) {
     //   countElements++;
     // }
     return countElements;
