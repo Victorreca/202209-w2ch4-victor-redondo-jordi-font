@@ -1,10 +1,5 @@
 class SkylabArray {
   length;
-  push;
-  some;
-  find;
-  filter;
-  map;
   array;
 
   constructor(...args) {
