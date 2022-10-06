@@ -5,4 +5,9 @@ class SkylabArray {
   find;
   filter;
   map;
+  array;
+
+  constructor(...args) {
+    this.array = args;
+  }
 }
