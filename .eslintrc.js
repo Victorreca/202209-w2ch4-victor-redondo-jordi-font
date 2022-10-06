@@ -16,5 +16,6 @@ module.exports = {
       "always",
       { exceptAfterSingleLine: true },
     ],
+    "no-plusplus": "off",
   },
 };

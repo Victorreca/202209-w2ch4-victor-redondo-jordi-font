@@ -4,15 +4,17 @@ class SkylabArray {
 
   constructor(...args) {
     this.array = args;
-    this.length = this.lengthProperty(this.array);
+    this.length = this.lengthProperty();
   }
 
-  lengthProperty = (array) => {
-    const arrayLength = array;
+  lengthProperty = () => {
+    const arrayLength = this.array;
     let countElements = 0;
-    for (const element of arrayLength) {
-      countElements++;
-    }
+    arrayLength.forEach(() => countElements++);
+
+    // for (const element in arrayLength) {
+    //   countElements++;
+    // }
     return countElements;
   };
 }
